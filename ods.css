@@ -1,0 +1,182 @@
+html,
+body {
+  margin: 0;
+}
+header {
+  background-color: rgb(184, 137, 232);
+  color: black;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+#logo {
+  width: 100px;
+  position: absolute;
+  margin-left: 5%;
+}
+#menu {
+  float: right;
+  margin-right: 5%;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-top: 0px;
+}
+
+li {
+  float: left;
+  padding: 20px 20px 20px 20px;
+}
+li:hover {
+  background-color: rgb(255, 4, 125);
+}
+#imagem_fundo {
+  background: url("fundo.jpg");
+  height: 100vh;
+  text-align: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+#titulo {
+  color: black;
+  font-size: 100px;
+  line-height: 30px;
+}
+#sub-titulo {
+  color: black;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#site {
+  color: rgb(128, 0, 64);
+  border: 1px rgb(128, 0, 64) solid;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  font-size: 20px;
+  padding: 25px;
+  width: 25px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+#politica {
+  background-color: rgb(209, 178, 239);
+  padding: 50px;
+  display: flex;
+}
+
+p {
+  text-align: left;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+#noticias h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#noticias .div1{
+    width: 33.33%;
+}
+
+#noticias p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 30px;
+  }
+
+.imagem1 {
+    width: 75%;
+    margin: 0 auto;
+    height: 250px;
+    display: block;
+}
+
+
+.coluna {
+  padding: 0 5%;
+  width: 40%;
+}
+.justificado {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.centralizado {
+  text-align: center;
+  font-size: 30px;
+}
+
+#noticias {
+  background-color: rgb(184 149 217);
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.flexbox {
+  /*height: 250px;*/
+  border: 1px black;
+  margin-bottom: 16px;
+  display: flex;
+}
+.flexbox div {
+  width: 100%;
+}
+ 
+#linhadotempo{
+    background-color: rgb(209, 178, 239);
+    padding: 50px;
+    overflow-x: hidden;
+}
+
+#linhadotempo h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 ;
+}
+.historia p{
+      width: 300px;
+      padding: 0%;
+      margin: 20px;
+      height: 100px;
+      float: left;
+    }
+
+    #creditos{
+      background-color: hsl(330, 100%, 51%);
+      margin: 0px;
+      text-align: left;
+    }
+  
+   .sobremim h3{
+    margin-top: 0px;
+    padding: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .creditos{
+    text-align: center;
+   }
+
+   @media all and (max-widht: 768px) {
+    #menu {
+      visibility: hidden;
+
+    }
+   }
